@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav-ul{
+  background-color: #765ca4;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.logo{
+  float: left;
+  width: 45px;
+  margin-bottom: 30px;
+  padding-left: 2%;
+
+}
+.nav-right{
+  text-align: right;
+}
+.footer{
+  background-color: #765ca4;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.nav-ul> li{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav-ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+.nav-ul > li > a:hover{
+  color: rgb(218, 221, 230);
+}
+.signup-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mb-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-container{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-item{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+  display: block;
+  width: 300px;
+  margin: 10px;
+  padding: 7px;
+  border: 1.4px solid purple;
+  border-radius: 6px;
+}
+.invalid{
+  margin-top: -10px;
+  color: red;
+  display: block;
+  float: left;
+  margin-left: 3%;
+  border: 1px solid #dfdbdb;
+  background-color: #efefef;
+  padding: 0px 8px 1px 4px;
+  border-radius: 5px;
+}
+.search-bar {
+  width: 40%;
+  padding: 8px;
+  margin-bottom: 6px;
+  border: 2px solid purple;
+  border-radius: 12px;
+}
+.no-result{
+  color: #7a7474;
+}
+
+
+.table-container {
+  margin: 20px;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-table td button{
+  /* padding: 5px 10px; */
+  /* color: white; */
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+.product-table td a {
+  /* padding: 5px 10px; */
+  /* color: white; */
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+ 
+}
+
+
+.button-del{
+  background-color: #ff0000;
+  color: #ffffff;
+  border: 0.1px solid gray;
+  padding: 2px;
+  border-radius: 2px;
+  margin-right: 2px;
+}
+.button-del:hover{
+background-color: #da0808;
+}
+.button-update{
+  background-color: #a78bd5;
+  color: white;
+  border: 0.1px solid gray;
+  padding: 2px;
+  border-radius: 2px;
+}
+.button-update:hover{
+  background-color: #9576d2;
+  color: white;
+}
+
+
+.input-box{
+  width: 70%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+margin-bottom: 1%;
+padding: 1%;
+border-radius: 5px;
+border: 1.5px solid #c2cfd5;
+}
+.mb-3 > input{
+width: 70%;
+margin-bottom: 1%;
+padding: 1%;
+border-radius: 5px;
+border: 1.5px solid #c2cfd5;
+}
+.container-item{
+    border: 1.5px solid #c2cfd5;
+    border-radius: 15px;
+    width: 40%;
+    padding: 10px;
+    background-color: rgb(249 249 249);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
